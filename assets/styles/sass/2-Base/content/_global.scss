@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  @include transition (3000);
+  // @include mp(0);
+}
+
+body {
+  font-family: $text;
+}
+
+a {
+  font-family: $title;
+  text-decoration: none;
+  // @include mp(0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // line-height: 1rem;
+  font-family: $title;
+  @include mp(0);
+}

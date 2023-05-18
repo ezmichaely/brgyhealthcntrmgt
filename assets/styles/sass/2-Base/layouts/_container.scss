@@ -1,0 +1,11 @@
+.fluid-padding {
+    @include px($s5);
+
+    @include breakpoint-lg {
+        @include px($s2);
+    }
+
+    @include breakpoint-md {
+        @include px($s2);
+    }
+}

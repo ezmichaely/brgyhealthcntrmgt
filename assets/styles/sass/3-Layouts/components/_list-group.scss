@@ -1,0 +1,61 @@
+// .list-group {
+//     .list-item {
+//         @include p($s3);
+//         @include py($s2);
+//         background-color: $subcolor;
+//         cursor: pointer;
+
+//         // border: 1px solid red;
+
+//         &:hover,
+//         &.active {
+//             background-color: $maincolor;
+//             color: $white !important;
+//         }
+
+//     }
+
+//     .accordion {
+//         background-color: $subcolor !important;
+//         cursor: pointer;
+//         color: $maincolor !important;
+
+//         // border: 1px solid red;
+
+//         &:hover,
+//         &.active {
+//             background-color: $maincolor !important;
+
+//             .accordion-button {
+//                 color: $white !important;
+//             }
+//         }
+
+//         .accordion-item {
+//             color: $maincolor !important;
+//             border: 0px solid $transparent;
+//             background-color: $transparent !important;
+//             // background-color: $maincolor !important;
+
+//             .accordion-header {
+//                 color: $maincolor !important;
+
+//                 border: 0px solid $transparent;
+//                 box-shadow: 0;
+
+//                 .accordion-button {
+//                     color: $maincolor;
+//                     border: 0px solid $transparent !important;
+//                     border: 1px solid red;
+//                     outline: 0;
+//                     background-color: $transparent !important;
+
+//                     &:not(.collapsed),
+//                     &:focus {
+//                         box-shadow: 0 0 0 0 $transparent !important;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

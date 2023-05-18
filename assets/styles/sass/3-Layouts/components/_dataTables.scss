@@ -1,0 +1,86 @@
+.data-table {
+    // border: 1px solid red !important;
+
+    * {
+        font-weight: bold !important;
+        font-family: $text !important;
+        // text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: bold !important;
+        font-family: $title !important;
+        // text-transform: uppercase;
+    }
+
+    a {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: $title !important;
+    }
+
+    i {
+        font-family: $font-awesome !important;
+    }
+
+    table {
+
+
+        thead {
+            border-color: $white;
+            @include bg($primary);
+
+            tr {
+
+                th {
+                    text-align: center !important;
+                    font-family: $title !important;
+                    vertical-align: middle !important;
+                    color: $white !important;
+                    text-transform: uppercase;
+                    @include m(0);
+                    @include px($s3);
+                    font-size: 0.875rem !important;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    vertical-align: middle;
+                    font-weight: bold;
+                    @include py($s2);
+                    @include px($s3);
+                    text-align: center;
+                    // font-size: 0.875rem !important;
+
+                    button {
+                        @include m($s1);
+                        text-transform: uppercase;
+                        font-weight: bold;
+
+                        span {
+                            @include ms($s1);
+                            font-family: $title !important;
+
+                            a {
+                                color: $black !important;
+
+                                &:hover {
+                                    color: $black !important;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

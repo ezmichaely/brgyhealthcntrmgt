@@ -1,0 +1,143 @@
+.asidebar {
+    width: 20%;
+    min-height: calc(100vh - 40px);
+    // @include custom-shadow(px, $dark);
+
+    .brand {
+        // border: 1px solid red;
+        height: 80px;
+
+        .brand-logo {
+            height: 60px;
+        }
+
+        .brand-span {
+            display: none !important;
+
+            // @include breakpoint-xxl {
+            // }
+
+        }
+    }
+
+    .sidebar {
+        .sidebar-list {
+
+            &:hover,
+            &.active {
+                background-color: $primary-700;
+
+                a.sidebar-link,
+                button.sidebar-button {
+                    color: $white !important;
+                }
+            }
+
+            .fa-angle-down {
+                @include breakpoint-md {
+                    font-size: 0.6rem;
+                }
+            }
+
+            .sidebar-link,
+            .sidebar-button {
+
+                @include breakpoint-xl {
+                    @include px($s2);
+                }
+
+                // .sidebar-link-item {
+                @include breakpoint-md-up {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    flex-direction: row;
+                }
+
+                @include breakpoint-md {
+                    justify-content: center;
+                    flex-direction: column;
+                    // align-items: center;
+                    text-align: center;
+                }
+
+                i {
+                    @include breakpoint-lg {
+                        font-size: 1.4rem;
+                    }
+
+
+                    @include breakpoint-md {
+                        font-size: 2rem;
+                    }
+
+                    &.fa-angle-down {
+                        @include breakpoint-md {
+                            display: none;
+                        }
+                    }
+                }
+
+                span {
+                    @include breakpoint-xl {
+                        @include ms(0);
+                    }
+
+                    @include breakpoint-md {
+                        font-size: 0.8rem;
+                    }
+
+                    @include breakpoint-sm {
+                        font-size: 0.6rem;
+                    }
+
+                    // }
+                }
+            }
+
+            .sidebar-link-items {
+                display: flex !important;
+                justify-content: start;
+                align-items: center;
+                flex-direction: row;
+
+                @include breakpoint-lg {
+                    justify-content: center;
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                &:hover,
+                &.active {
+                    background-color: $gray-300 !important;
+
+                    i,
+                    span {
+                        color: $primary !important;
+                    }
+                }
+
+
+                i {
+                    @include breakpoint-lg {
+                        font-size: 1.4rem;
+                    }
+                }
+
+                span {
+                    @include breakpoint-lg {
+                        @include ms(0);
+                    }
+
+                    @include breakpoint-md {
+                        font-size: 0.8rem;
+                    }
+
+                    @include breakpoint-sm {
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        }
+    }
+}

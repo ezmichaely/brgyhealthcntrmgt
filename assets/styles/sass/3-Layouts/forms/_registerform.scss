@@ -1,0 +1,11 @@
+.form-register {
+    // @include p($s4);
+    // @include pt($s3);
+    border-top: 1px solid $primary;
+    width: 100%;
+
+    form {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}

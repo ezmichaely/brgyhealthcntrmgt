@@ -1,0 +1,26 @@
+.form-forgot {
+    // @include pt($s2);
+    // border: 1px solid red;
+
+    @include breakpoint-md-up {
+        width: 50% !important;
+        border-left: 1px solid $primary;
+    }
+
+    @include breakpoint-md {
+        width: 100% !important;
+        border-top: 1px solid $primary;
+        border-top-left-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+
+        border-bottom-left-radius: 0.25rem !important;
+        border-bottom-right-radius: 0.25rem !important;
+    }
+
+    form {
+        // @include p($s3);
+        // @include pt($s2);
+        // margin: 0 !important;
+        // padding: 0 !important;
+    }
+}

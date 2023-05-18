@@ -1,0 +1,89 @@
+.text-white {
+    color: $white;
+}
+
+.text-black {
+    color: $black;
+}
+
+.font-brand {
+    font-family: $brand !important;
+}
+
+.font-title {
+    font-family: $title !important;
+}
+
+.font-subtitle {
+    font-family: $subtitle !important;
+}
+
+.font-text {
+    font-family: $text !important;
+}
+
+.fs-7 {
+    font-size: 0.875rem !important; //14px
+}
+
+.fs-8 {
+    font-size: 0.75rem !important; //12px
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.cursor-default {
+    cursor: default !important;
+}
+
+.outline-0 {
+    outline: 0 !important;
+}
+
+.align-middle {
+    vertical-align: middle !important;
+}
+
+.md-column {
+    @include breakpoint-md-up {
+        flex-direction: row !important;
+    }
+
+    @include breakpoint-md {
+        flex-direction: column !important;
+    }
+}
+
+// .overflow-x-hidden {
+//     overflow-x: hidden !important;
+// }
+
+.overflow-y-hidden {
+    overflow-y: hidden !important;
+}
+
+.overflow-x-auto {
+    overflow-x: auto !important;
+    // overflow-y: hidden !important;
+}
+
+.overflow-auto {
+    @include breakpoint-md-up {
+        overflow: hidden !important;
+    }
+
+    @include breakpoint-md {
+        overflow: auto !important;
+    }
+}
+
+.list-style-disc {
+    list-style-type: disc !important;
+    list-style-position: inside !important;
+}
+
+// input[type=number] {
+//     -moz-appearance: textfield;
+// }

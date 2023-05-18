@@ -1,0 +1,75 @@
+// nav {
+//     @include mp(0);
+//     // @include shadow(10px, $red-500);
+
+//     .navbar-true {
+
+//         @include breakpoint-md {
+//             // @include mp(0);
+//         }
+
+//         .nav {
+//             @include mp(0);
+
+//             &.navbar {
+//                 @include breakpoint-md {
+//                     display: none;
+//                 }
+//             }
+
+//             &.navaside {
+//                 // @include mp(0);
+
+
+//             }
+
+//             .nav-item {
+//                 @include mp(0);
+//                 @include px(10px);
+
+//                 .nav-link {
+//                     color: $maincolor;
+//                     @include mp(0);
+//                     @include py(8px);
+
+//                     @include ul-left;
+
+//                     &.active,
+//                     &:hover {
+//                         color: $white;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     &.navbar-dropdown {
+//         @include px(0);
+
+//         @include breakpoint-md-up {
+//             display: none !important;
+//         }
+
+//         .nav {
+//             .nav-item {
+//                 user-select: none;
+//                 @include py($s2);
+//                 background-color: $subcolorLight;
+
+//                 &:hover,
+//                 &.active {
+//                     background-color: $maincolor;
+
+//                     .nav-list {
+//                         color: $white !important;
+//                     }
+//                 }
+
+//                 .nav-list {
+//                     color: $maincolor !important;
+
+//                 }
+//             }
+//         }
+//     }
+// }

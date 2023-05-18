@@ -1,0 +1,130 @@
+// .owl-carousel {
+//     .card {
+//         color: $subcolor;
+
+
+//         &:hover {
+//             .card-img-top {
+//                 transform: scale(1.2);
+//                 @include transition(0.3s);
+//             }
+//         }
+
+//         .img-placeholder {
+//             position: relative;
+//             overflow: hidden;
+
+//             .card-img-top {
+//                 height: 20vh;
+//                 width: 100%;
+//                 object-fit: cover;
+//                 @include transition(0.3s);
+//             }
+
+//             .card-img-overlay {
+//                 // top: 12vh;
+//                 @include m(0);
+//                 @include py(0);
+
+//                 .card-title {
+//                     @include pt($s2);
+//                     @include text-stroke2($white);
+//                 }
+
+//                 i {
+//                     font-size: 1.4rem;
+//                     @include text-stroke2($white);
+//                     color: $maincolor;
+
+//                     &:hover {
+//                         color: $white;
+//                         @include text-stroke2($maincolor);
+//                     }
+//                 }
+//             }
+//         }
+
+//         .card-body {
+//             @include pb(0);
+
+//             .card-badge {
+//                 font-family: $title;
+//             }
+
+//             .card-icon {
+//                 height: 1.8rem;
+//                 width: auto;
+//                 @include mp(0);
+//             }
+
+//             .card-title {
+//                 font-family: $subtitle;
+//             }
+
+//             .card-description {
+//                 font-family: $text;
+//             }
+//         }
+//     }
+
+//     .owl-prev {
+//         left: -15px;
+
+//         @include breakpoint-sm {
+//             left: -5px;
+//         }
+//     }
+
+//     .owl-next {
+//         right: -15px;
+
+//         @include breakpoint-sm {
+//             right: -5px;
+//         }
+//     }
+
+//     .owl-next,
+//     .owl-prev {
+//         position: absolute;
+//         top: 100px;
+
+//         span {
+//             border: 1px solid $transparent;
+//             border-radius: 3px;
+//             font-size: 4rem;
+//             color: $maincolor;
+//             font-weight: 600;
+//             padding-bottom: 10px;
+//             @include px(3px);
+//             // border: 1px solid $maincolor;
+
+
+//             &:hover {
+//                 border: 1px solid $maincolor;
+//                 border-radius: 5px;
+//                 // background-color: $maincolor;
+//                 // color: $white;
+//             }
+//         }
+//     }
+
+//     .owl-dots {
+//         text-align: center;
+
+//         .owl-dot {
+//             height: 15px;
+//             width: 35px;
+//             border-radius: 25px;
+//             cursor: pointer;
+//             outline: none;
+//             border: 2px solid $maincolor;
+//             margin: 0 5px;
+
+//             &:hover,
+//             &.active {
+//                 background-color: $maincolor;
+//             }
+//         }
+//     }
+
+// }

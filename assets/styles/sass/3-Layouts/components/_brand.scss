@@ -1,0 +1,83 @@
+.brand-index {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @include p($s3);
+
+    @include breakpoint-md-up {
+        width: 50% !important;
+
+    }
+
+    @include breakpoint-md {
+        width: 100% !important;
+    }
+
+    .brand-logo {
+        height: 7rem;
+
+        @include breakpoint-lg {
+            height: 5rem;
+        }
+    }
+
+    .brand-name {
+        @include breakpoint-md {
+            font-size: 2.6rem;
+        }
+    }
+}
+
+.brand-register {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    @include p($s3);
+
+    @include breakpoint-md {
+
+        @include mx($s5);
+        @include px(0);
+
+        justify-content: center !important;
+    }
+
+    .brand-logo {
+        height: 4rem;
+    }
+
+    .brand-intro {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+
+        .brand-name {
+            width: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+            line-height: 2rem;
+
+        }
+
+
+    }
+
+}
+
+header {
+    .brand {
+        .brand-logo {
+            height: 60px;
+        }
+
+        .brand-span {
+            @include breakpoint-md {
+                display: none !important;
+            }
+        }
+    }
+}

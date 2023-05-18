@@ -1,0 +1,16 @@
+.index {
+    background: linear-gradient(0deg, rgba($white, 0.8), rgba($white, 0.8)),
+        url("../../../assets/images/background/bg01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .index-card {
+        @include breakpoint-md {
+            flex-direction: column !important;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+}
